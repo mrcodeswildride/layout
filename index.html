@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.45">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>Layout</h1>
+
+    <div id="box1" class="box">
+        <p>This is box 1.</p>
+        <p>Inspect this box to see the HTML for the boxes. Each box is made with a div tag.</p>
+        <p>In the inspector, look at the styles for the box. Both box1 and box2 have a display: inline-block style, which puts the boxes side by side.</p>
+        <p>Both box1 and box2 have a vertical-align: top style, which makes the top of the boxes line up with each other.</p>
+        <p>Box1 has both padding and margin styles. In the inspector, uncheck those styles and observe what happens.</p>
+    </div>
+
+    <div id="box2" class="box">
+        <p>This is box 2.</p>
+
+        <div id="box3" class="box">
+            <p>This is box 3, which is inside box 2.</p>
+            <p>It has both padding and margin styles.</p>
+        </div>
+
+        <div id="box4" class="box">
+            <p>This is box 4, which is inside box 2.</p>
+            <p>It has a text-align style.</p>
+        </div>
+    </div>
+</body>
+
+</html>
